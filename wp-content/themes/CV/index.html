@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+
+<html lang="pl"> 
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <meta name="description" content="">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="home">
+
+<!-- 
+
+<table> 
+
+    <thead>
+
+        <th>Lp.</th>
+
+        <th>Imię</th>
+
+        <th>Nazwisko</th>
+
+        <th>Miasto</th>
+
+        <th>Ulica i numer</th>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+
+            <td>1</td>
+
+            <td>Jan</td>
+
+            <td>Kowalski</td>
+
+            <td>Warszawa</td>
+
+            <td>Długa 1</td>
+
+        </tr>
+
+        <tr>
+
+            <td>2</td>
+
+            <td>Adam</td>
+
+            <td>Nowak</td>
+
+            <td>Katowice</td>
+
+            <td>Długa 2</td>
+
+        </tr>
+
+        <tr>
+
+            <td>3</td>
+
+            <td>Jan</td>
+
+            <td>Nowak</td>
+
+            <td>Częstochowa</td>
+
+            <td>Długa 3</td>
+
+        </tr>
+
+    </tbody>
+
+</table> -->
+
+<!-- Ćwiczenie 2 -->
+
+<!-- Stwórz dwa znaczniki div. Jeden z klasą box1 a drugi z klasą box2. 
+
+W pierwszym znaczniku o klasie box1 podaj odstęp wewnętrzny:
+
+góra: 10px
+
+prawa: 20px
+
+dół: 10px
+
+lewa: 10px
+
+
+
+W drugim znaczniku o klasie box2 podaj odstęp zewnętrzny:
+
+góra: 20px
+
+prawa: 10px
+
+doł 20px
+
+lewa: 5px
+
+ -->
+
+
+
+<!-- Ćwiczenie 3 -->
+
+<!-- Stwórz dwa znaczniki. Jeden z klasą child1 a drugi child2. 
+
+Umieść te dwa znaczniki w rodzicu z klasą wrapper. 
+
+Znacznik z klasą child1 ostyluj tak aby pozycjonował się według wrapper i było odsunięty
+
+od niego o 20px z góry i 50px z lewej
+
+Znacznik z klasą child2 ostyluj tak aby pozycjonował się według body i był odsunięty od niego
+
+o 30px z góry i 5px z lewej. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="wrapper" style="margin: 100px auto; width: 800px; ">
+
+    <div class="box1" >
+
+        <div class="child1" >
+
+            <img src="img/jan-kowalski.jpg" alt="">
+
+        </div>
+
+    </div>
+
+    <div class="box2" >
+
+        <div class="child2" >
+
+            <img src="img/jan-kowalski.jpg" alt="">
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+ -->
+
+<!-- <div class="wrapper">
+
+    <div class="box1" 
+
+         style="
+
+         width: 100px; 
+
+         height: 100px; 
+
+         padding: 10px 20px 10px 10px; 
+
+         border: 1px solid #000;">
+
+    </div>
+
+    <div class="box2" 
+
+         style="
+
+         width: 100px; 
+
+         height: 100px;
+
+         margin: 20px 10px 20px 5px; 
+
+         border: 1px solid #000;">
+
+    </div>
+
+</div> -->
+
+<!-- 
+
+<style>
+
+    html {
+
+        scroll-behavior: smooth;
+
+    }
+
+    .main-menu { 
+
+        height: 40px;
+
+        width: 100%;
+
+        padding-top: 20px;
+
+        background: #cbcbcb;
+
+        position: fixed;
+
+        z-index: 2;
+
+    }
+
+    .main-menu-item {
+
+        display: inline-block; 
+
+        margin-right: 20px;
+
+        font-size: 20px;
+
+    }
+
+    .main-menu-inner {
+
+        text-align: center;
+
+    }
+
+    .main-menu-item a:after {
+
+        content: '|';
+
+        display: inline-block;
+
+        margin-left: 20px;  
+
+        color: #000;
+
+    }
+
+    .innaklasa::before {
+
+        content: '|';
+
+        display: inline-block;
+
+        margin-right: 20px;
+
+        color: #000;
+
+    }
+
+    .main-menu-inner a:hover {
+
+        color: red;
+
+    }
+
+</style>
+
+<nav class="main-menu">
+
+    <ul class="main-menu-inner">
+
+        <li class="main-menu-item innaklasa">
+
+            <a href="#home">Strona główna</a>
+
+        </li>
+
+        <li class="main-menu-item">
+
+            <a href="#aboutus">O nas</a>
+
+        </li>
+
+        <li class="main-menu-item">
+
+            <a href="#offfer">Oferta</a>
+
+        </li>
+
+        <li class="main-menu-item">
+
+            <a href="#services">Usługi</a>
+
+        </li>
+
+        <li class="main-menu-item">
+
+            <a href="#blog">Blog</a>
+
+        </li>
+
+        <li class="main-menu-item">
+
+            <a href="#cotntact">Kontakt</a>
+
+        </li>
+
+    </ul>
+
+</nav> -->
+
+<!-- <div style="font-size: 18px;">
+
+    <p style="color: #000;"> 
+
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ducimus quas ut molestias unde alias eius, sed nesciunt quis? Cum labore voluptatem dignissimos voluptatibus doloremque ullam eaque voluptate nobis enim? 
+
+    </p>
+
+</div> -->
+<!-- 
+    <div class="container">
+
+        <div class="col-left">
+
+            <div class="photo">
+
+                <img src="img/jan-kowalski.jpg" alt="Jan Kowalski" class="hero-img">
+
+                <!-- Testowo dodana metoda wyświetlania zdjęcia -->
+
+                <!-- <picture>
+
+                    <source media="(min-width:400px)" srcset="img/jan-kowalski.jpg">
+
+                    <source media="(min-width:400px)" srcset="img/sobieski.webp">
+
+                    <img src="img/jan-kowalski.jpg" alt="Jan Kowalski" class="hero-img">
+
+                </picture> -->
+
+            </div>
+
+            <div class="name min992">
+
+                <h1 class="hero-name" id="alamakota">
+
+                    <!-- Roose -->
+                    <script type="text/javascript">
+
+                        function mojafunkcja() 
+                        {
+                            document.write("JS!")
+                            document.write(Date())
+                        }
+                        mojafunkcja()
+
+                        function WinOpen() 
+                        {
+                            const myWidnow = window.open()
+                            myWidnow.document.write('BLEBLEBLE!')
+                        }
+                        function helloWorld ()
+
+                        {
+                            document.getElementById("alamakota").innerHTML="Kot ma Alę"
+                        }
+                        helloWorld()
+
+
+                    </script>
+                    <span class="semibold">
+                        
+                        <!-- Monique -->
+                        <script type="text/javascript">
+                            document.write("Moniqueee")
+                        </script>
+                    </span>
+
+                </h1>
+
+                <h2 class="hero-info">
+
+                    <!-- Creative Director -->
+                    <script type="text/javascript">
+                        document.write("Creative Directorrr")
+                    </script>
+                </h2>
+
+            </div>
+
+            <div class="row profile">
+
+                <span class="h3 h3-bg">Profile</span>
+
+                <p class="profile-desc">
+
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    Iste perspiciatis quod at dignissimos dolorum iusto qui, 
+
+                    possimus nulla perferendis voluptatem officiis inventore 
+
+                    praesentium nisi eius aspernatur non ut dicta vero!
+
+                </p>
+
+            </div>
+
+            <div class="row skills" id="aboutus">
+
+                <span class="h3 h3-bg">Skills</span>
+
+                <div class="skill skill-1">
+
+                    <p class="skill-name">Skill 1</p>
+
+                    <span class="progress1"></span>
+
+                </div>
+
+                <div class="skill skill-2">
+
+                    <p class="skill-name">Skill 2</p>
+
+                    <span class="progress2"></span>
+
+                </div>
+
+                <div class="skill skill-3" id="services">
+
+                    <p class="skill-name">Skill 3</p>
+
+                    <span class="progress3"></span>
+
+                </div>
+
+                <div class="skill skill-4">
+
+                    <p class="skill-name">Skill 4</p>
+
+                    <span class="progress4"></span>
+
+                </div>
+
+            </div>
+
+            <div class="row contact" id="contact">
+
+                <span class="h3 h3-bg">Contact</span>
+
+                <div class="instagram">
+
+                    <span class="insta-wrap"><i class="fa-brands fa-instagram icon"></i></span><a href="">Instagram</a>
+
+                </div>
+
+                <div class="facebook">
+
+                    <span class="facebook-wrap"><i class="fa-brands fa-facebook-f icon"></i></span><a href="">Facebook</a>
+
+                </div>
+
+                <div class="mail">
+
+                    <span class="env-wrap"><i class="fa-solid fa-envelope icon"></i></span><a href="">Mail</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-right">
+
+            <!-- <div class="circle1"></div>
+
+            <div class="circle2"></div>
+
+            <div class="circle3"></div>
+
+            <div class="circle4"></div>
+
+            <div class="circle5"></div> -->
+
+            <div class="name max992">
+
+                <h1 class="hero-name">
+
+                    <!-- Roose -->
+                    <script type="text/javascript">
+                        document.write("Rooseee")
+                    </script>
+                    <span class="semibold">
+
+                        <!-- Monique -->
+                        <script type="text/javascript">
+                            document.write("Moniqueee")
+                        </script>
+                    </span>
+
+                </h1>
+
+                <h2 class="hero-info">
+                    <!-- Creative Director</h2> -->
+                    <script type="text/javascript">
+                        document.write("Creative Director")
+                    </script>
+
+            </div>
+
+            <div class="row education">
+
+                <span class="h3 h3-bg">Education</span>
+
+                <ul class="info-inner">
+
+                    <li class="item">
+
+                        <h4 class="title">Lorem ipsum</h4>
+
+                        <span class="name">Lorem ipsum</span>
+
+                        <p class="desc">Lorem ipsum</p>
+
+                    </li>
+
+                </ul>
+
+                <ul class="info-inner">
+
+                    <li class="item">
+
+                        <h4 class="title">Lorem ipsum</h4>
+
+                        <span class="name">Lorem ipsum</span>
+
+                        <p class="desc">Lorem ipsum</p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="row experience">
+
+                <span class="h3 h3-bg">Experience</span>
+
+                <ul class="info-inner">
+
+                    <li class="item">
+
+                        <h4 class="title">Lorem ipsum</h4>
+
+                        <span class="name">Lorem ipsum</span>
+
+                        <p class="desc">Lorem ipsum</p>
+
+                    </li>
+
+                </ul>
+
+                <ul class="info-inner">
+
+                    <li class="item">
+
+                        <h4 class="title">Lorem ipsum</h4>
+
+                        <span class="name">Lorem ipsum</span>
+
+                        <p class="desc">Lorem ipsum</p>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="row language">
+
+                <span class="h3 h3-bg">Language</span>
+
+            </div>
+
+        </div> 
+
+    </div>
+
+    <div class="box1">
+
+        <div class="box2">
+
+            <div class="wrapper">
+
+                
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+<!-- <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="900" height="600" fill="#002233"></rect><path d="M0 445L21.5 439C43 433 86 421 128.8 427.2C171.7 433.3 214.3 457.7 257.2 474.3C300 491 343 500 385.8 499.7C428.7 499.3 471.3 489.7 514.2 472.2C557 454.7 600 429.3 642.8 423.2C685.7 417 728.3 430 771.2 440C814 450 857 457 878.5 460.5L900 464L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 601L0 601Z" fill="#0066FF" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
+
+<div class="background"></div> -->
+<div class="mojeid"></div>
+
+<!-- etykieta nad polem -->
+<label for="" style="width: 100%;">Sprawdź czy możesz kupić alkohol, wprowadź wiek : </label>
+<!-- Pole do wprowadzenia wieku -->
+<input type="text" class="age" style="width: 100px;">
+<!-- Przycisk sprawdzający -->
+<button id="submit">Kliknij i sprawdź!</button>
+<!-- Pole w którym wyświetli się komunikat -->
+<span class="output" style="display: block; width: 300px; height: 300px; border: 1px solid #000;"></span>
+
+<script type="text/javascript">
+    let output = document.querySelector('.output');
+    document.querySelector('#submit').onclick = function() 
+    {
+        let age = parseInt(document.querySelector('.age').value);
+        let message = "";
+        switch (age) {
+        case 18: 
+            message = "Możesz pić alkohol jak mama nie widzi !!!";
+            break;
+        case 30:
+            message = "Możesz pić alkohol jak mama widzi !!!";
+            break;
+        case 65:
+            message = "Przestań pić alkohol bo szkodzi zdrowiu !!!";
+            break;
+        default:
+            message = "Nie możesz pić, bo mama widzi !!!"
+        }
+        output.innerHTML = message;
+    }
+
+    function funkcjaFor ()
+    {
+        p=0
+        s=5
+        k=10
+        for (var i = p; i <=k; i=i+s) 
+        {
+            document.write(" Ala ma kota : "+i+" razy ")
+            console.log(" Ala ma kota : "+i+" razy ")
+        }
+    }
+    funkcjaFor ()
+    function funkcjaWhile ()
+    {
+        n=0
+        y=2
+        z=4
+        while (n<z) 
+        {
+            n = n + y;
+            document.write(" Ola ma psa : "+n+" razy ")
+            console.log(" Ola ma psa : "+n+" razy ")
+        }
+    }
+    funkcjaWhile ()
+</script>
+
+
+<button onclick="helloworld ()">Wynik</button>
+
+<div id="path"></div>
+<svg width="650.6599853515625px" height="120.8px" xmlns="http://www.w3.org/2000/svg" viewBox="-75.32999267578123 14.600000000000001 650.6599853515625 120.8" style="background:#444" preserveAspectRatio="xMidYMid"><defs><filter id="editing-crystal" x="-100%" y="-100%" width="300%" height="300%"><feMorphology operator="dilate" radius="2" in="SourceGraphic" result="border"></feMorphology><feFlood flood-color="#fff" result="black"></feFlood><feMorphology operator="dilate" radius="2" in="SourceGraphic" result="erode"></feMorphology><feGaussianBlur in="erode" stdDeviation="4" result="blur"></feGaussianBlur><feOffset in="blur" dx="2" dy="2" result="offset"></feOffset><feComposite operator="atop" in="offset" in2="black" result="merge"></feComposite><feComposite operator="in" in="merge" in2="SourceGraphic" result="inner-shadow"></feComposite><feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="shadow1"></feGaussianBlur><feOffset in="shadow1" dx="0" dy="5" result="shadow"></feOffset><feSpecularLighting in="SourceGraphic" result="specular" surfaceScale="1.5" specularConstant="100" specularExponent="10" lighting-color="#fff"><fePointLight x="250" y="-300" z="-400"></fePointLight></feSpecularLighting><feGaussianBlur in="specular" stdDeviation="1" result="specular2"></feGaussianBlur><feComposite operator="in" in="specular2" in2="SourceAlpha" result="specular3"></feComposite><feMerge result="merge"><feMergeNode in="border"></feMergeNode><feMergeNode in="inner-shadow"></feMergeNode><feMergeNode in="specular3"></feMergeNode></feMerge><feComponentTransfer in="merge" result="final"><feFuncA type="linear" slope="0.9" intercept="0"></feFuncA></feComponentTransfer><feMerge><feMergeNode in="shadow"></feMergeNode><feMergeNode in="final"></feMergeNode></feMerge></filter></defs><g filter="url(#editing-crystal)"><g transform="translate(19.24415409564972, 99)"><path d="M6.53 0L-0.83 0L10.75-42.24L24.13-42.24L27.07-18.11L38.98-42.24L50.18-42.24L51.33-10.62L51.33-10.62Q51.58-4.35 54.66-2.43L54.66-2.43L54.66-2.43Q53.95-1.15 51.90 0.06L51.90 0.06L51.90 0.06Q49.86 1.28 47.14 1.28L47.14 1.28L47.14 1.28Q44.42 1.28 42.82 0.51L42.82 0.51L42.82 0.51Q41.22-0.26 40.32-1.54L40.32-1.54L40.32-1.54Q38.72-3.84 38.72-8.26L38.72-8.26L38.72-28.03L26.11 0L18.18 0L13.70-28.74L6.53 0ZM60.19-1.92L60.19-1.92L60.19-1.92Q58.69-3.58 58.02-6.21L58.02-6.21L58.02-6.21Q57.34-8.83 57.34-13.12L57.34-13.12L57.34-13.12Q57.34-17.41 58.82-21.31L58.82-21.31L58.82-21.31Q60.29-25.22 62.98-28.03L62.98-28.03L62.98-28.03Q68.48-33.92 77.57-33.92L77.57-33.92L77.57-33.92Q80.83-33.92 83.20-32.83L83.20-32.83L94.14-33.92L89.41-8.96L89.41-8.96Q89.22-8.19 89.22-6.78L89.22-6.78L89.22-6.78Q89.22-5.38 90.08-4.48L90.08-4.48L90.08-4.48Q90.94-3.58 92.22-3.46L92.22-3.46L92.22-3.46Q91.58-1.28 89.25 0L89.25 0L89.25 0Q86.91 1.28 84.29 1.28L84.29 1.28L84.29 1.28Q81.66 1.28 79.90 0.29L79.90 0.29L79.90 0.29Q78.14-0.70 77.63-2.37L77.63-2.37L77.63-2.37Q76.61-0.77 74.43 0.26L74.43 0.26L74.43 0.26Q72.26 1.28 69.34 1.28L69.34 1.28L69.34 1.28Q66.43 1.28 64.06 0.51L64.06 0.51L64.06 0.51Q61.70-0.26 60.19-1.92ZM73.70-27.90L73.70-27.90L73.70-27.90Q72.96-26.75 72.32-24.80L72.32-24.80L72.32-24.80Q71.68-22.85 70.62-17.63L70.62-17.63L70.62-17.63Q69.57-12.42 69.57-8.70L69.57-8.70L69.57-8.70Q69.57-4.99 70.14-3.90L70.14-3.90L70.14-3.90Q70.72-2.82 71.74-2.82L71.74-2.82L71.74-2.82Q73.79-2.82 75.30-4.77L75.30-4.77L75.30-4.77Q76.80-6.72 77.38-10.18L77.38-10.18L80.77-28.93L80.77-28.93Q79.42-30.08 77.86-30.08L77.86-30.08L77.86-30.08Q76.29-30.08 75.36-29.57L75.36-29.57L75.36-29.57Q74.43-29.06 73.70-27.90ZM117.63-17.98L117.63-17.98L117.63-17.98Q119.94-22.08 119.94-26.24L119.94-26.24L119.94-26.24Q119.94-28.99 117.95-28.99L117.95-28.99L117.95-28.99Q116.42-28.99 114.82-26.37L114.82-26.37L114.82-26.37Q113.15-23.74 112.64-20.35L112.64-20.35L109.31 0L96.06 1.28L102.59-32.64L113.15-33.92L112-27.46L112-27.46Q115.14-33.92 122.18-33.92L122.18-33.92L122.18-33.92Q125.89-33.92 127.90-32L127.90-32L127.90-32Q129.92-30.08 129.92-26.14L129.92-26.14L129.92-26.14Q129.92-22.21 127.33-19.71L127.33-19.71L127.33-19.71Q124.74-17.22 120.32-17.22L120.32-17.22L120.32-17.22Q118.40-17.22 117.63-17.98ZM146.30-3.52L146.30-3.52L146.30-3.52Q144.32 1.28 137.98 1.28L137.98 1.28L137.98 1.28Q134.72 1.28 132.67-0.96L132.67-0.96L132.67-0.96Q130.94-2.94 130.94-4.93L130.94-4.93L130.94-4.93Q130.94-10.11 133.31-20.22L133.31-20.22L135.68-32.64L148.67-33.92L144.77-13.70L144.77-13.70Q143.68-8.96 143.68-7.30L143.68-7.30L143.68-7.30Q143.68-3.65 146.30-3.52ZM136.83-41.54L136.83-41.54L136.83-41.54Q136.83-44.03 138.91-45.38L138.91-45.38L138.91-45.38Q140.99-46.72 144-46.72L144-46.72L144-46.72Q147.01-46.72 148.83-45.38L148.83-45.38L148.83-45.38Q150.66-44.03 150.66-41.54L150.66-41.54L150.66-41.54Q150.66-39.04 148.64-37.76L148.64-37.76L148.64-37.76Q146.62-36.48 143.62-36.48L143.62-36.48L143.62-36.48Q140.61-36.48 138.72-37.76L138.72-37.76L138.72-37.76Q136.83-39.04 136.83-41.54ZM154.53-1.92L154.53-1.92L154.53-1.92Q153.02-3.58 152.35-6.21L152.35-6.21L152.35-6.21Q151.68-8.83 151.68-13.12L151.68-13.12L151.68-13.12Q151.68-17.41 153.15-21.31L153.15-21.31L153.15-21.31Q154.62-25.22 157.31-28.03L157.31-28.03L157.31-28.03Q162.82-33.92 171.90-33.92L171.90-33.92L171.90-33.92Q175.17-33.92 177.54-32.83L177.54-32.83L188.48-33.92L183.74-8.96L183.74-8.96Q183.55-8.19 183.55-6.78L183.55-6.78L183.55-6.78Q183.55-5.38 184.42-4.48L184.42-4.48L184.42-4.48Q185.28-3.58 186.56-3.46L186.56-3.46L186.56-3.46Q185.92-1.28 183.58 0L183.58 0L183.58 0Q181.25 1.28 178.62 1.28L178.62 1.28L178.62 1.28Q176 1.28 174.24 0.29L174.24 0.29L174.24 0.29Q172.48-0.70 171.97-2.37L171.97-2.37L171.97-2.37Q170.94-0.77 168.77 0.26L168.77 0.26L168.77 0.26Q166.59 1.28 163.68 1.28L163.68 1.28L163.68 1.28Q160.77 1.28 158.40 0.51L158.40 0.51L158.40 0.51Q156.03-0.26 154.53-1.92ZM168.03-27.90L168.03-27.90L168.03-27.90Q167.30-26.75 166.66-24.80L166.66-24.80L166.66-24.80Q166.02-22.85 164.96-17.63L164.96-17.63L164.96-17.63Q163.90-12.42 163.90-8.70L163.90-8.70L163.90-8.70Q163.90-4.99 164.48-3.90L164.48-3.90L164.48-3.90Q165.06-2.82 166.08-2.82L166.08-2.82L166.08-2.82Q168.13-2.82 169.63-4.77L169.63-4.77L169.63-4.77Q171.14-6.72 171.71-10.18L171.71-10.18L175.10-28.93L175.10-28.93Q173.76-30.08 172.19-30.08L172.19-30.08L172.19-30.08Q170.62-30.08 169.70-29.57L169.70-29.57L169.70-29.57Q168.77-29.06 168.03-27.90ZM219.01 1.28L219.01 1.28L219.01 1.28Q211.26 1.28 211.26-4.74L211.26-4.74L211.26-4.74Q211.33-6.40 211.84-9.22L211.84-9.22L212.99-15.10L212.99-15.10Q214.72-23.42 214.72-25.28L214.72-25.28L214.72-25.28Q214.72-28.99 212.54-28.99L212.54-28.99L212.54-28.99Q208.90-28.99 206.98-19.46L206.98-19.46L203.20 0L190.34 1.28L196.99-32.70L207.49-33.92L206.46-27.65L206.46-27.65Q209.47-33.92 218.69-33.92L218.69-33.92L218.69-33.92Q223.17-33.92 225.06-32.03L225.06-32.03L225.06-32.03Q226.94-30.14 226.94-25.92L226.94-25.92L226.94-25.92Q226.94-21.95 224.90-12.67L224.90-12.67L224.90-12.67Q223.94-8.51 223.94-6.94L223.94-6.94L223.94-6.94Q223.94-5.38 224.80-4.48L224.80-4.48L224.80-4.48Q225.66-3.58 226.94-3.46L226.94-3.46L226.94-3.46Q226.30-1.28 224.10 0L224.10 0L224.10 0Q221.89 1.28 219.01 1.28ZM251.84 0L244.80 0L252.48-42.24L266.24-42.24L276.22-13.18L281.54-42.24L288.64-42.18L280.83 0L266.18 0L256.96-27.97L251.84 0ZM304.19 1.28L304.19 1.28L304.19 1.28Q290.11 1.28 290.11-11.97L290.11-11.97L290.11-11.97Q290.11-21.38 295.30-27.46L295.30-27.46L295.30-27.46Q300.80-33.92 310.34-33.92L310.34-33.92L310.34-33.92Q317.25-33.92 320.77-30.72L320.77-30.72L320.77-30.72Q324.29-27.52 324.29-20.80L324.29-20.80L324.29-20.80Q324.29-10.56 318.78-4.61L318.78-4.61L318.78-4.61Q313.41 1.28 304.19 1.28ZM305.86-26.56L305.86-26.56L305.86-26.56Q305.09-24.83 304.48-22.24L304.48-22.24L304.48-22.24Q303.87-19.65 303.10-15.55L303.10-15.55L303.10-15.55Q302.34-11.46 302.34-6.40L302.34-6.40L302.34-6.40Q302.34-4.74 302.88-3.65L302.88-3.65L302.88-3.65Q303.42-2.56 304.90-2.56L304.90-2.56L304.90-2.56Q306.37-2.56 307.30-3.26L307.30-3.26L307.30-3.26Q308.22-3.97 308.93-5.63L308.93-5.63L308.93-5.63Q310.21-8.58 311.23-14.05L311.23-14.05L311.23-14.05Q312.26-19.52 312.35-21.89L312.35-21.89L312.35-21.89Q312.45-24.26 312.45-26.02L312.45-26.02L312.45-26.02Q312.45-27.78 311.94-28.93L311.94-28.93L311.94-28.93Q311.42-30.08 309.98-30.08L309.98-30.08L309.98-30.08Q308.54-30.08 307.58-29.18L307.58-29.18L307.58-29.18Q306.62-28.29 305.86-26.56ZM375.81-10.69L375.81-10.69Q371.58-4.86 367.52-1.79L367.52-1.79L367.52-1.79Q363.46 1.28 359.26 1.28L359.26 1.28L359.26 1.28Q355.07 1.28 353.60 0.45L353.60 0.45L353.60-13.63L353.60-13.63Q349.95-3.90 343.42-0.13L343.42-0.13L343.42-0.13Q341.06 1.28 338.82 1.28L338.82 1.28L338.82 1.28Q334.53 1.28 332.67 0.45L332.67 0.45L332.67 0.45Q332.22-14.21 331.84-18.27L331.84-18.27L331.84-18.27Q331.46-22.34 331.14-24.83L331.14-24.83L331.14-24.83Q330.50-29.82 328.32-31.87L328.32-31.87L328.32-31.87Q331.07-33.92 334.91-33.92L334.91-33.92L334.91-33.92Q342.34-33.92 343.36-24.70L343.36-24.70L343.36-24.70Q343.62-22.53 343.62-20.22L343.62-20.22L343.62-20.22Q343.62-16.77 342.85-4.74L342.85-4.74L342.85-4.74Q344.38-5.44 346.02-7.97L346.02-7.97L346.02-7.97Q347.65-10.50 348.99-13.95L348.99-13.95L348.99-13.95Q352-21.95 352-28.86L352-28.86L352-28.86Q352-29.95 351.71-31.10L351.71-31.10L351.71-31.10Q351.42-32.26 351.10-32.58L351.10-32.58L351.10-32.58Q353.34-33.92 356.77-33.92L356.77-33.92L356.77-33.92Q360.19-33.92 361.82-31.58L361.82-31.58L361.82-31.58Q363.46-29.25 363.90-24.96L363.90-24.96L363.90-24.96Q364.42-19.52 364.42-16.26L364.42-16.26L364.42-16.26Q364.42-11.71 363.97-4.99L363.97-4.99L363.97-4.99Q367.17-7.30 369.79-14.85L369.79-14.85L369.79-14.85Q372.42-22.40 372.42-27.78L372.42-27.78L372.42-27.78Q372.42-30.14 372.03-31.55L372.03-31.55L372.03-31.55Q374.14-33.92 377.79-33.92L377.79-33.92L377.79-33.92Q380.03-33.92 381.66-32.70L381.66-32.70L381.66-32.70Q383.30-31.49 383.30-29.22L383.30-29.22L383.30-29.22Q383.30-26.94 382.62-24.51L382.62-24.51L382.62-24.51Q381.95-22.08 380.86-19.58L380.86-19.58L380.86-19.58Q378.75-14.59 375.81-10.69L375.81-10.69ZM387.81-1.92L387.81-1.92L387.81-1.92Q386.30-3.58 385.63-6.21L385.63-6.21L385.63-6.21Q384.96-8.83 384.96-13.12L384.96-13.12L384.96-13.12Q384.96-17.41 386.43-21.31L386.43-21.31L386.43-21.31Q387.90-25.22 390.59-28.03L390.59-28.03L390.59-28.03Q396.10-33.92 405.18-33.92L405.18-33.92L405.18-33.92Q408.45-33.92 410.82-32.83L410.82-32.83L421.76-33.92L417.02-8.96L417.02-8.96Q416.83-8.19 416.83-6.78L416.83-6.78L416.83-6.78Q416.83-5.38 417.70-4.48L417.70-4.48L417.70-4.48Q418.56-3.58 419.84-3.46L419.84-3.46L419.84-3.46Q419.20-1.28 416.86 0L416.86 0L416.86 0Q414.53 1.28 411.90 1.28L411.90 1.28L411.90 1.28Q409.28 1.28 407.52 0.29L407.52 0.29L407.52 0.29Q405.76-0.70 405.25-2.37L405.25-2.37L405.25-2.37Q404.22-0.77 402.05 0.26L402.05 0.26L402.05 0.26Q399.87 1.28 396.96 1.28L396.96 1.28L396.96 1.28Q394.05 1.28 391.68 0.51L391.68 0.51L391.68 0.51Q389.31-0.26 387.81-1.92ZM401.31-27.90L401.31-27.90L401.31-27.90Q400.58-26.75 399.94-24.80L399.94-24.80L399.94-24.80Q399.30-22.85 398.24-17.63L398.24-17.63L398.24-17.63Q397.18-12.42 397.18-8.70L397.18-8.70L397.18-8.70Q397.18-4.99 397.76-3.90L397.76-3.90L397.76-3.90Q398.34-2.82 399.36-2.82L399.36-2.82L399.36-2.82Q401.41-2.82 402.91-4.77L402.91-4.77L402.91-4.77Q404.42-6.72 404.99-10.18L404.99-10.18L408.38-28.93L408.38-28.93Q407.04-30.08 405.47-30.08L405.47-30.08L405.47-30.08Q403.90-30.08 402.98-29.57L402.98-29.57L402.98-29.57Q402.05-29.06 401.31-27.90ZM441.73-30.34L441.73-30.34L441.73-30.34Q445.18-33.92 452.48-33.92L452.48-33.92L452.48-33.92Q456.51-33.92 458.72-31.78L458.72-31.78L458.72-31.78Q460.93-29.63 460.93-25.70L460.93-25.70L460.93-25.70Q460.93-21.76 458.72-18.98L458.72-18.98L458.72-18.98Q456.51-16.19 452.42-15.04L452.42-15.04L452.42-15.04Q452.74-13.76 453.18-12.42L453.18-12.42L454.08-9.86L454.08-9.86Q455.30-6.59 456.26-5.44L456.26-5.44L456.26-5.44Q457.22-4.29 458.50-3.90L458.50-3.90L458.50-3.90Q457.79-1.28 455.23 0.13L455.23 0.13L455.23 0.13Q453.18 1.28 450.37 1.28L450.37 1.28L450.37 1.28Q442.11 1.28 441.02-11.46L441.02-11.46L441.02-11.46Q440.83-13.25 440.83-15.04L440.83-15.04L440.83-15.04Q444.03-15.94 446.27-18.94L446.27-18.94L446.27-18.94Q448.51-21.95 448.51-25.47L448.51-25.47L448.51-25.47Q448.51-28.99 446.02-28.99L446.02-28.99L446.02-28.99Q444.22-28.99 442.82-27.01L442.82-27.01L442.82-27.01Q441.41-25.02 440.77-21.63L440.77-21.63L436.54 0L423.62 1.28L432.58-44.80L445.44-46.08L443.97-38.46L443.97-38.46Q443.01-33.09 441.73-30.34Z" fill="#000000" stroke="#88e0eb" stroke-width="1.5"></path></g></g><style>text {
+  font-size: 64px;
+  font-family: Arial Black;
+  dominant-baseline: central;
+  text-anchor: middle;
+}</style></svg>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
